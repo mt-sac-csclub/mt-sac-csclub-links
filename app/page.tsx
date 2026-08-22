@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { FaDiscord, FaInstagram } from 'react-icons/fa6';
+import { FaDiscord, FaGithub, FaInstagram } from 'react-icons/fa6';
 import { HiOutlineArrowUpRight, HiOutlineEnvelope } from 'react-icons/hi2';
 import { SiGoogleforms } from 'react-icons/si';
 
@@ -32,6 +32,13 @@ const links = [
     Icon: HiOutlineEnvelope,
     className: 'email',
   },
+  {
+    label: 'Our GitHub',
+    description: 'github.com/mt-sac-csclub',
+    href: 'https://github.com/mt-sac-csclub',
+    Icon: FaGithub,
+    className: 'github',
+  },
 ];
 
 const socialLinks = [
@@ -49,6 +56,11 @@ const socialLinks = [
     label: 'Email',
     href: 'mailto:mtsac.csclub@gmail.com',
     Icon: HiOutlineEnvelope,
+  },
+  {
+    label: 'GitHub',
+    href: 'https://github.com/mt-sac-csclub',
+    Icon: FaGithub,
   },
 ];
 
@@ -82,10 +94,15 @@ export default function Home() {
           </a>
 
           <div className="bio">
-            <p>💻 Interested in Computer Science? Join us!</p>
-            <p>👥 101 Workshops | Game Nights | Events</p>
-            <p>🤝 All experience is welcomed — beginner to expert</p>
+            <p>💻 Workshops, code jams &amp; hackathons</p>
+            <p>🎓 Tutoring, alumni panels &amp; transfer advice</p>
+            <p>🤝 Game nights, networking &amp; campus events</p>
           </div>
+
+          <p className="profile-description">
+            A welcoming Mt. SAC community where students learn, build, and grow
+            together — no experience required.
+          </p>
         </header>
 
         <nav className="link-list" aria-label="Mt. SAC Computer Science Club links">

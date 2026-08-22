@@ -96,7 +96,7 @@ h1 {
 .bio {
   display: grid;
   gap: 4px;
-  margin: 18px auto 24px;
+  margin: 18px auto 10px;
   color: #344d78;
   font-size: 0.84rem;
   line-height: 1.42;
@@ -104,6 +104,14 @@ h1 {
 
 .bio p {
   margin: 0;
+}
+
+.profile-description {
+  max-width: 430px;
+  margin: 0 auto 24px;
+  color: #526789;
+  font-size: 0.79rem;
+  line-height: 1.48;
 }
 
 .link-list {

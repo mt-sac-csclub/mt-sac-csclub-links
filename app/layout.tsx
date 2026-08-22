@@ -3,7 +3,7 @@ import './globals.css';
 
 const title = 'Mt. SAC Computer Science Club';
 const description =
-  'Interested in Computer Science? Join us for workshops, game nights, events, and a welcoming community for every experience level.';
+  'A welcoming Mt. SAC community where students learn, build, and grow together — no experience required.';
 const socialImage =
   'https://mtsac-csclub-links.mcasper.chatgpt.site/og.png';
 
